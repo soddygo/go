@@ -19,22 +19,34 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="base-hadoop_main" target="1.5" />
-      <module name="base-hadoop_test" target="1.5" />
-      <module name="base-hibernate_main" target="1.5" />
-      <module name="base-hibernate_test" target="1.5" />
+      <module name="base-config_main" target="1.7" />
+      <module name="base-config_test" target="1.7" />
+      <module name="base-cxf_main" target="1.7" />
+      <module name="base-cxf_test" target="1.7" />
+      <module name="base-esb_main" target="1.5" />
+      <module name="base-esb_test" target="1.5" />
+      <module name="base-front_main" target="1.7" />
+      <module name="base-front_test" target="1.7" />
+      <module name="base-hadoop_main" target="1.7" />
+      <module name="base-hadoop_test" target="1.7" />
+      <module name="base-hibernate_main" target="1.7" />
+      <module name="base-hibernate_test" target="1.7" />
+      <module name="base-log_main" target="1.7" />
+      <module name="base-log_test" target="1.7" />
       <module name="base-manager_main" target="1.5" />
       <module name="base-manager_test" target="1.5" />
-      <module name="base-spark_main" target="1.5" />
-      <module name="base-spark_test" target="1.5" />
-      <module name="base-spring_main" target="1.5" />
-      <module name="base-spring_test" target="1.5" />
-      <module name="base-util_main" target="1.5" />
-      <module name="base-util_test" target="1.5" />
-      <module name="base-web_main" target="1.5" />
-      <module name="base-web_test" target="1.5" />
-      <module name="go_main" target="1.5" />
-      <module name="go_test" target="1.5" />
+      <module name="base-spark_main" target="1.7" />
+      <module name="base-spark_test" target="1.7" />
+      <module name="base-spring_main" target="1.7" />
+      <module name="base-spring_test" target="1.7" />
+      <module name="base-util_main" target="1.7" />
+      <module name="base-util_test" target="1.7" />
+      <module name="base-web_main" target="1.7" />
+      <module name="base-web_test" target="1.7" />
+      <module name="base-xml_main" target="1.7" />
+      <module name="base-xml_test" target="1.7" />
+      <module name="go_main" target="1.7" />
+      <module name="go_test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
