@@ -1,0 +1,9 @@
+rootProject.name = 'go'
+include 'base-spring'
+include 'base-hibernate'
+include 'base-util'
+include 'base-spark'
+include 'base-hadoop'
+include 'base-web'
+include 'base-manager'
+

@@ -1,0 +1,25 @@
+group 'soddy'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+repositories {
+    mavenCentral()
+    maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.3.Final'
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-ehcache
+    compile group: 'org.hibernate', name: 'hibernate-ehcache', version: '5.2.3.Final'
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-c3p0
+    compile group: 'org.hibernate', name: 'hibernate-c3p0', version: '5.2.3.Final'
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-infinispan
+    compile group: 'org.hibernate', name: 'hibernate-infinispan', version: '5.2.3.Final'
+
+}
+

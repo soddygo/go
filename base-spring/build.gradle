@@ -1,0 +1,39 @@
+group 'soddy'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+    maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    // https://mvnrepository.com/artifact/org.springframework/spring-context
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.3.RELEASE'
+    // https://mvnrepository.com/artifact/org.springframework/spring-core
+    compile group: 'org.springframework', name: 'spring-core', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-beans
+    compile group: 'org.springframework', name: 'spring-beans', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-web
+    compile group: 'org.springframework', name: 'spring-web', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-aop
+    compile group: 'org.springframework', name: 'spring-aop', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-webmvc
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-tx
+    compile group: 'org.springframework', name: 'spring-tx', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-orm
+    compile group: 'org.springframework', name: 'spring-orm', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-context-support
+    compile group: 'org.springframework', name: 'spring-context-support', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-jms
+    compile group: 'org.springframework', name: 'spring-jms', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework/spring-aspects
+    compile group: 'org.springframework', name: 'spring-aspects', version: '4.3.3.RELEASE'
+
+}

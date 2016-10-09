@@ -2,6 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop.iml" group="base-hadoop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop_main.iml" group="base-hadoop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop_test.iml" group="base-hadoop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate.iml" group="base-hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate_main.iml" group="base-hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate_test.iml" group="base-hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-spark/base-spark.iml" filepath="$PROJECT_DIR$/.idea/modules/base-spark/base-spark.iml" group="base-spark" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-spark/base-spark_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-spark/base-spark_main.iml" group="base-spark" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-spark/base-spark_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-spark/base-spark_test.iml" group="base-spark" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-spring/base-spring.iml" filepath="$PROJECT_DIR$/.idea/modules/base-spring/base-spring.iml" group="base-spring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-spring/base-spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-spring/base-spring_main.iml" group="base-spring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-spring/base-spring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-spring/base-spring_test.iml" group="base-spring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-util/base-util.iml" filepath="$PROJECT_DIR$/.idea/modules/base-util/base-util.iml" group="base-util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-util/base-util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-util/base-util_main.iml" group="base-util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-util/base-util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-util/base-util_test.iml" group="base-util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-web/base-web.iml" filepath="$PROJECT_DIR$/.idea/modules/base-web/base-web.iml" group="base-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-web/base-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-web/base-web_main.iml" group="base-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-web/base-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-web/base-web_test.iml" group="base-web" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/go.iml" filepath="$PROJECT_DIR$/.idea/modules/go.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/go_main.iml" filepath="$PROJECT_DIR$/.idea/modules/go_main.iml" group="go" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/go_test.iml" filepath="$PROJECT_DIR$/.idea/modules/go_test.iml" group="go" />

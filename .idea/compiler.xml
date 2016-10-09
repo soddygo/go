@@ -19,6 +19,18 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="base-hadoop_main" target="1.5" />
+      <module name="base-hadoop_test" target="1.5" />
+      <module name="base-hibernate_main" target="1.5" />
+      <module name="base-hibernate_test" target="1.5" />
+      <module name="base-spark_main" target="1.5" />
+      <module name="base-spark_test" target="1.5" />
+      <module name="base-spring_main" target="1.5" />
+      <module name="base-spring_test" target="1.5" />
+      <module name="base-util_main" target="1.5" />
+      <module name="base-util_test" target="1.5" />
+      <module name="base-web_main" target="1.5" />
+      <module name="base-web_test" target="1.5" />
       <module name="go_main" target="1.5" />
       <module name="go_test" target="1.5" />
     </bytecodeTargetLevel>
