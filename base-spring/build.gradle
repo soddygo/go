@@ -36,4 +36,9 @@ dependencies {
 // https://mvnrepository.com/artifact/org.springframework/spring-aspects
     compile group: 'org.springframework', name: 'spring-aspects', version: '4.3.3.RELEASE'
 
+
+    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.0-b01'
+
+
 }

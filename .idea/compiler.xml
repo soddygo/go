@@ -35,6 +35,8 @@
       <module name="base-log_test" target="1.7" />
       <module name="base-manager_main" target="1.5" />
       <module name="base-manager_test" target="1.5" />
+      <module name="base-redis_main" target="1.5" />
+      <module name="base-redis_test" target="1.5" />
       <module name="base-spark_main" target="1.7" />
       <module name="base-spark_test" target="1.7" />
       <module name="base-spring_main" target="1.7" />

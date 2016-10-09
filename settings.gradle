@@ -12,4 +12,5 @@ include 'base-xml'
 include 'base-log'
 include 'base-esb'
 include 'base-front'
+include 'base-redis'
 

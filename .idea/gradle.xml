@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/base-hibernate" />
             <option value="$PROJECT_DIR$/base-log" />
             <option value="$PROJECT_DIR$/base-manager" />
+            <option value="$PROJECT_DIR$/base-redis" />
             <option value="$PROJECT_DIR$/base-spark" />
             <option value="$PROJECT_DIR$/base-spring" />
             <option value="$PROJECT_DIR$/base-util" />

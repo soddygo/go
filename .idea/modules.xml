@@ -26,6 +26,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-manager/base-manager.iml" filepath="$PROJECT_DIR$/.idea/modules/base-manager/base-manager.iml" group="base-manager" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-manager/base-manager_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-manager/base-manager_main.iml" group="base-manager" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-manager/base-manager_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-manager/base-manager_test.iml" group="base-manager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-redis/base-redis.iml" filepath="$PROJECT_DIR$/.idea/modules/base-redis/base-redis.iml" group="base-redis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-redis/base-redis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-redis/base-redis_main.iml" group="base-redis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-redis/base-redis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-redis/base-redis_test.iml" group="base-redis" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-spark/base-spark.iml" filepath="$PROJECT_DIR$/.idea/modules/base-spark/base-spark.iml" group="base-spark" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-spark/base-spark_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-spark/base-spark_main.iml" group="base-spark" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-spark/base-spark_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-spark/base-spark_test.iml" group="base-spark" />
