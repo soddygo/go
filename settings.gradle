@@ -6,4 +6,8 @@ include 'base-spark'
 include 'base-hadoop'
 include 'base-web'
 include 'base-manager'
+include 'base-config'
+include 'base-cxf'
+include 'base-xml'
+include 'base-log'
 

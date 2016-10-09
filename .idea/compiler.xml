@@ -23,6 +23,8 @@
       <module name="base-hadoop_test" target="1.5" />
       <module name="base-hibernate_main" target="1.5" />
       <module name="base-hibernate_test" target="1.5" />
+      <module name="base-manager_main" target="1.5" />
+      <module name="base-manager_test" target="1.5" />
       <module name="base-spark_main" target="1.5" />
       <module name="base-spark_test" target="1.5" />
       <module name="base-spring_main" target="1.5" />
