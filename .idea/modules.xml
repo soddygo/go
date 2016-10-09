@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-config.iml" filepath="$PROJECT_DIR$/.idea/modules/base-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-cxf.iml" filepath="$PROJECT_DIR$/.idea/modules/base-cxf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-esb.iml" filepath="$PROJECT_DIR$/.idea/modules/base-esb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-front.iml" filepath="$PROJECT_DIR$/.idea/modules/base-front.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop.iml" group="base-hadoop" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop_main.iml" group="base-hadoop" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop_test.iml" group="base-hadoop" />

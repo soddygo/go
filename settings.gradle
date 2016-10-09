@@ -10,4 +10,6 @@ include 'base-config'
 include 'base-cxf'
 include 'base-xml'
 include 'base-log'
+include 'base-esb'
+include 'base-front'
 
