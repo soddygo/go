@@ -3,10 +3,14 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'groovy'
 apply plugin: 'java'
+apply plugin: 'idea'
 
 sourceCompatibility = 1.5
 
 repositories {
+    jcenter()
+    maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    mavenLocal()
     mavenCentral()
 }
 

@@ -2,11 +2,15 @@ group 'soddy'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
 
 repositories {
-    mavenCentral()
+    jcenter()
     maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
-
+    mavenLocal()
+    mavenCentral()
 }
 
 dependencies {
@@ -35,6 +39,15 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-jms', version: '4.3.3.RELEASE'
 // https://mvnrepository.com/artifact/org.springframework/spring-aspects
     compile group: 'org.springframework', name: 'spring-aspects', version: '4.3.3.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.1.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '1.4.1.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot
+    compile group: 'org.springframework.boot', name: 'spring-boot', version: '1.4.1.RELEASE'
+
+
+
 
 
     // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
