@@ -11,9 +11,6 @@
           <element id="module-output" name="base-front_main" />
           <element id="dir-copy" path="$PROJECT_DIR$/base-front/build/resources/main" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-all:2.3.11" />
-        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/base-front/exploded/base-front-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
