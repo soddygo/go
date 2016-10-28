@@ -1,4 +1,4 @@
-package com.soddy.base;
+package com.soddy.base.listener;
 
 import org.springframework.web.context.ContextLoaderListener;
 
