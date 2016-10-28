@@ -39,8 +39,8 @@
       <module name="base-redis_test" target="1.5" />
       <module name="base-spark_main" target="1.7" />
       <module name="base-spark_test" target="1.7" />
-      <module name="base-spring_main" target="1.7" />
-      <module name="base-spring_test" target="1.7" />
+      <module name="base-spring_main" target="1.8" />
+      <module name="base-spring_test" target="1.8" />
       <module name="base-util_main" target="1.7" />
       <module name="base-util_test" target="1.7" />
       <module name="base-web_main" target="1.7" />
