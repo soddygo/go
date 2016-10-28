@@ -3,6 +3,7 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'idea'
+apply plugin: 'eclipse'
 
 sourceCompatibility = 1.8
 
@@ -53,5 +54,5 @@ dependencies {
     // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
     compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.0-b01'
 
-
+     compile 'org.codehaus.groovy:groovy-all:2.2.1'
 }
