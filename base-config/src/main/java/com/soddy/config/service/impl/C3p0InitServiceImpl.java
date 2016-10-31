@@ -12,25 +12,37 @@ import java.io.IOException;
  */
 public class C3p0InitServiceImpl implements JdbcPoolInitService {
     //    private static final MDBManagerDBManager instance=new MDBManager();
+
     private static ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource(true);
 
     @Override
-    public  void initJdbcPool() throws IOException {
+    public void initJdbcProperties() throws IOException {
         ProPertiesUtil.initDefaultProperties();
-            comboPooledDataSource.setDataSourceName("mydatasource");
-            comboPooledDataSource.setJdbcUrl("");
-            try {
-                comboPooledDataSource.setDriverClass("");
-            } catch (PropertyVetoException e) {
-                e.printStackTrace();
-            }
-            comboPooledDataSource.setUser("");
-            comboPooledDataSource.setPassword("");
-            comboPooledDataSource.setMaxPoolSize(100);
-            comboPooledDataSource.setMinPoolSize(50);
-            comboPooledDataSource.setAcquireIncrement(10);
-            comboPooledDataSource.setInitialPoolSize(200);
-            comboPooledDataSource.setMaxIdleTime(3000);
 
+    }
+
+    @Override
+    public void initJdbcPool() throws IOException {
+
+        comboPooledDataSource.setDataSourceName("mydatasource");
+        comboPooledDataSource.setJdbcUrl(ProPertiesUtil.getPropertyValue("jdbc.url"));
+        try {
+            comboPooledDataSource.setDriverClass(ProPertiesUtil.getPropertyValue("jdbc.driver"));
+        } catch (PropertyVetoException e) {
+            e.printStackTrace();
+        }
+        comboPooledDataSource.setUser(ProPertiesUtil.getPropertyValue("jdbc.username"));
+        comboPooledDataSource.setPassword(ProPertiesUtil.getPropertyValue("jdbc.password"));
+        comboPooledDataSource.setMaxPoolSize(Integer.valueOf(ProPertiesUtil.getPropertyValue("connection_pools.max_pool_size")));
+        comboPooledDataSource.setMinPoolSize(Integer.valueOf(ProPertiesUtil.getPropertyValue("connection_pools.min_pool_size")));
+        comboPooledDataSource.setAcquireIncrement(1);
+        comboPooledDataSource.setInitialPoolSize(Integer.valueOf(ProPertiesUtil.getPropertyValue("connection_pools.initial_pool_size")));
+        comboPooledDataSource.setMaxIdleTime(Integer.valueOf(ProPertiesUtil.getPropertyValue("connection_pools.max_idle_time")));
+
+    }
+
+    @Override
+    public <T> T getDataSource() {
+        return (T) comboPooledDataSource;
     }
 }

@@ -22,6 +22,8 @@ public class ProPertiesUtil {
 
     private static List<Properties> propertiesList = new ArrayList<>();
 
+
+
     /**
      * 增加一个Properties对象
      *
@@ -36,7 +38,7 @@ public class ProPertiesUtil {
      * 默认初始化
      */
     public static void initDefaultProperties() throws IOException {
-        final String basePath = "com/trssearch/proxool/";
+        final String basePath = "";
         Enumeration<URL> urls = Thread.currentThread().getContextClassLoader().getResources(basePath);
         List<String> proxools = new ArrayList<String>();
         while (urls.hasMoreElements()) {
@@ -57,7 +59,9 @@ public class ProPertiesUtil {
                         InputStream inputStream = new FileInputStream(f);
                         properties.load(inputStream);
                         IoUtil.closeQuietly(inputStream);
-                        propertiesList.add(properties);
+                        if(!propertiesList.contains(properties)){
+                            propertiesList.add(properties);
+                        }
                     }
                 }
             } else if ("jar".equals(protocol)) {
@@ -75,7 +79,9 @@ public class ProPertiesUtil {
                         Properties properties = new Properties();
                         properties.load(inputStream);
                         IoUtil.closeQuietly(inputStream);
-                        propertiesList.add(properties);
+                        if(!propertiesList.contains(properties)){
+                            propertiesList.add(properties);
+                        }
                     }
                 }
             }
@@ -90,7 +96,12 @@ public class ProPertiesUtil {
      * @param key
      * @return
      */
-    public static String getString(String key) {
+    public static String getPropertyValue(String key) {
+        for(Properties properties :propertiesList){
+            if(properties.containsKey(key)){
+                return properties.getProperty(key);
+            }
+        }
 
         return null;
     }
@@ -99,4 +110,19 @@ public class ProPertiesUtil {
 //    InputStream inputStream3 = Object.class.getClassLoader().getResourceAsStream("ipConfig.properties");
 
 
+    public static String getDefaultBasePath() {
+        return defaultBasePath;
+    }
+
+    public static void setDefaultBasePath(String defaultBasePath) {
+        ProPertiesUtil.defaultBasePath = defaultBasePath;
+    }
+
+    public static List<Properties> getPropertiesList() {
+        return propertiesList;
+    }
+
+    public static void setPropertiesList(List<Properties> propertiesList) {
+        ProPertiesUtil.propertiesList = propertiesList;
+    }
 }

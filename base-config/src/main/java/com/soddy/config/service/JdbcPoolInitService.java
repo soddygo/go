@@ -8,8 +8,17 @@ import java.io.IOException;
  */
 public interface JdbcPoolInitService {
 
+    void initJdbcProperties() throws IOException;
+
     /**
      * 初始化数据库连接池
      */
     void  initJdbcPool() throws IOException;
+
+    /**
+     * 获取dataSource 对象
+     * @param <T>
+     * @return
+     */
+    <T> T getDataSource();
 }
