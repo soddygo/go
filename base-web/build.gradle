@@ -6,6 +6,9 @@ apply plugin: 'war'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 repositories {
     jcenter()
     maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
