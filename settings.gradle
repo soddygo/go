@@ -13,4 +13,6 @@ include 'base-log'
 include 'base-esb'
 include 'base-front'
 include 'base-redis'
+include 'base-jdbc'
+include 'shiro'
 

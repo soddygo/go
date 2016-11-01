@@ -48,10 +48,12 @@ dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot', version: '1.4.1.RELEASE'
 
 
-
     // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
     compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.0-b01'
 
+
+    // https://mvnrepository.com/artifact/net.bull.javamelody/javamelody-core
+    compile group: 'net.bull.javamelody', name: 'javamelody-core', version: '1.62.0'
 
 
 

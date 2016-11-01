@@ -23,5 +23,8 @@ dependencies {
 // https://mvnrepository.com/artifact/org.hibernate/hibernate-infinispan
     compile group: 'org.hibernate', name: 'hibernate-infinispan', version: '5.2.3.Final'
 
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-ehcache
+    compile group: 'org.hibernate', name: 'hibernate-ehcache', version: '5.2.3.Final'
+
 }
 

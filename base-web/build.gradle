@@ -15,4 +15,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile project(path:':base-config') //依赖配置信息
+
 }

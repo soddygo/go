@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd"
+	   default-lazy-init="true">
+       
+	<!-- shiro 拦截配置 -->
+	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+		<property name="securityManager" ref="securityManager" />
+		<property name="loginUrl" value="/tologin" />
+		<property name="successUrl" value="/toindex" />
+		<property name="unauthorizedUrl" value="/tounauth" />
+		<property name="filterChainDefinitions">
+			<value>
+                /login/**=anon
+                /css/**=anon
+                /img/**=anon
+                /js/**=anon
+                /**=authc
+			</value>
+		</property>
+	</bean>
+	
+	<!-- 安全管理器 -->
+	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+		<property name="realm" ref="shiroRealm"/>
+		<property name="cacheManager" ref="shiroCacheManager"/>
+	</bean>
+	<!-- shiro Realm -->
+	<bean id="shiroRealm" class="com.trs.base.config.ShiroRealm"/>
+	<!-- shiro缓存 -->
+	<bean id="shiroCacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+		<property name="cacheManager" ref="ehCacheManager" />
+	</bean>
+	
+</beans>

@@ -31,6 +31,8 @@
       <module name="base-hadoop_test" target="1.8" />
       <module name="base-hibernate_main" target="1.8" />
       <module name="base-hibernate_test" target="1.8" />
+      <module name="base-jdbc_main" target="1.8" />
+      <module name="base-jdbc_test" target="1.8" />
       <module name="base-log_main" target="1.8" />
       <module name="base-log_test" target="1.8" />
       <module name="base-manager_main" target="1.5" />
@@ -49,6 +51,10 @@
       <module name="base-xml_test" target="1.8" />
       <module name="go_main" target="1.8" />
       <module name="go_test" target="1.8" />
+      <module name="jdbc_main" target="1.8" />
+      <module name="jdbc_test" target="1.8" />
+      <module name="shiro_main" target="1.5" />
+      <module name="shiro_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

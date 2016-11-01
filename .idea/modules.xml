@@ -20,6 +20,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate.iml" group="base-hibernate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate_main.iml" group="base-hibernate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hibernate/base-hibernate_test.iml" group="base-hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-jdbc/base-jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/base-jdbc/base-jdbc.iml" group="base-jdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-jdbc/base-jdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-jdbc/base-jdbc_main.iml" group="base-jdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-jdbc/base-jdbc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-jdbc/base-jdbc_test.iml" group="base-jdbc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-log/base-log.iml" filepath="$PROJECT_DIR$/.idea/modules/base-log/base-log.iml" group="base-log" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-log/base-log_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-log/base-log_main.iml" group="base-log" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-log/base-log_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-log/base-log_test.iml" group="base-log" />
@@ -47,6 +50,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/go.iml" filepath="$PROJECT_DIR$/.idea/modules/go.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/go_main.iml" filepath="$PROJECT_DIR$/.idea/modules/go_main.iml" group="go" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/go_test.iml" filepath="$PROJECT_DIR$/.idea/modules/go_test.iml" group="go" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shiro/shiro.iml" filepath="$PROJECT_DIR$/.idea/modules/shiro/shiro.iml" group="shiro" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shiro/shiro_main.iml" filepath="$PROJECT_DIR$/.idea/modules/shiro/shiro_main.iml" group="shiro" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shiro/shiro_test.iml" filepath="$PROJECT_DIR$/.idea/modules/shiro/shiro_test.iml" group="shiro" />
     </modules>
   </component>
 </project>
