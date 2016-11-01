@@ -1,5 +1,6 @@
 package com.soddy.base.listener;
 
+import com.soddy.base.factory.SpringFactory;
 import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,21 +42,28 @@ public class SystemListener extends ContextLoaderListener {
     @Override
     public void contextInitialized(ServletContextEvent event) {
         ServletContext servletContext = event.getServletContext();
-        servletContext.setInitParameter("contextConfigLocation", "classpath*:com/soddy/spring/*.xml");
+        servletContext.setInitParameter("contextConfigLocation", "classpath*:spring/spring-base.xml");//从spring-base.xml文件，去读取其他的配置文件信息
 
 
         //启动spring TODO
         final long begin = System.currentTimeMillis();
-
+        this.initSpring(event);
         final long end = System.currentTimeMillis();
         logger.info("启动耗时：" + (end - begin));
     }
 
-    private void initSpring(ServletContextEvent event) throws Exception{
+    /**
+     * spring初始化
+     * @param event
+     * @throws Exception
+     */
+    private void initSpring(ServletContextEvent event) {
 
         super.contextInitialized(event);
+
         {
             WebApplicationContext springContext = WebApplicationContextUtils.getWebApplicationContext(event.getServletContext());
+            SpringFactory.setApplicationContext(springContext);
 //            SpringFactory.Spring.setSpringContext(springContext);
 //            SpringFactory.Spring.springLog();
         }

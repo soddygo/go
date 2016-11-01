@@ -13,7 +13,7 @@ import java.io.IOException;
 public class C3p0InitServiceImpl implements JdbcPoolInitService {
     //    private static final MDBManagerDBManager instance=new MDBManager();
 
-    private static ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource(true);
+    private static ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource();
 
     @Override
     public void initJdbcProperties() throws IOException {
@@ -24,13 +24,11 @@ public class C3p0InitServiceImpl implements JdbcPoolInitService {
     @Override
     public void initJdbcPool() throws IOException {
 
-        comboPooledDataSource.setDataSourceName("mydatasource");
+//        comboPooledDataSource.setDataSourceName("mydatasource");
         comboPooledDataSource.setJdbcUrl(ProPertiesUtil.getPropertyValue("jdbc.url"));
-        try {
-            comboPooledDataSource.setDriverClass(ProPertiesUtil.getPropertyValue("jdbc.driver"));
-        } catch (PropertyVetoException e) {
-            e.printStackTrace();
-        }
+
+        comboPooledDataSource.setDriverClass(ProPertiesUtil.getPropertyValue("jdbc.driver"));
+
         comboPooledDataSource.setUser(ProPertiesUtil.getPropertyValue("jdbc.username"));
         comboPooledDataSource.setPassword(ProPertiesUtil.getPropertyValue("jdbc.password"));
         comboPooledDataSource.setMaxPoolSize(Integer.valueOf(ProPertiesUtil.getPropertyValue("connection_pools.max_pool_size")));

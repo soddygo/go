@@ -6,7 +6,7 @@
     <import resource="classpath:jdbc/datasource.xml"/>
     <import resource="classpath:aop/datasource-aop.xml"/>
     <import resource="classpath:hibernate/hibernate.xml"/>
-    <import resource="classpath:mvc/springmvc.xml"/>
+    <import resource="classpath:mvc/springMvc.xml"/>
 
 
     <import resource="classpath:spring/spring-freemarker.xml"/>

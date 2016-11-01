@@ -106,7 +106,7 @@ public class ProPertiesUtil {
         return null;
     }
 
-//    InputStream inputStream2 = Object.class.getResourceAsStream("/resource.properties");
+//    InputStream inputStream2 = Object.class.getResourceAsStream("/resources.properties");
 //    InputStream inputStream3 = Object.class.getClassLoader().getResourceAsStream("ipConfig.properties");
 
 

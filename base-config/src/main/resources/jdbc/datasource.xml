@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!-- 加载配置参数 -->
-    <bean id="propertyConfigurer" class="com.trs.base.config.BaseProperties">
+    <bean id="propertyConfigurer" class="com.soddy.config.init.BaseProperties">
         <property name="locations">
             <list><value>classpath:resources.properties</value></list>
         </property>
