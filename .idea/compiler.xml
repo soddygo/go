@@ -23,8 +23,8 @@
       <module name="base-config_test" target="1.8" />
       <module name="base-cxf_main" target="1.8" />
       <module name="base-cxf_test" target="1.8" />
-      <module name="base-esb_main" target="1.5" />
-      <module name="base-esb_test" target="1.5" />
+      <module name="base-esb_main" target="1.8" />
+      <module name="base-esb_test" target="1.8" />
       <module name="base-front_main" target="1.8" />
       <module name="base-front_test" target="1.8" />
       <module name="base-hadoop_main" target="1.8" />
@@ -35,10 +35,10 @@
       <module name="base-jdbc_test" target="1.8" />
       <module name="base-log_main" target="1.8" />
       <module name="base-log_test" target="1.8" />
-      <module name="base-manager_main" target="1.5" />
-      <module name="base-manager_test" target="1.5" />
-      <module name="base-redis_main" target="1.5" />
-      <module name="base-redis_test" target="1.5" />
+      <module name="base-manager_main" target="1.8" />
+      <module name="base-manager_test" target="1.8" />
+      <module name="base-redis_main" target="1.8" />
+      <module name="base-redis_test" target="1.8" />
       <module name="base-spark_main" target="1.8" />
       <module name="base-spark_test" target="1.8" />
       <module name="base-spring_main" target="1.8" />

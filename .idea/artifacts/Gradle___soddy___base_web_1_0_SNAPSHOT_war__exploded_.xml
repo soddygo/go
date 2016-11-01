@@ -93,14 +93,14 @@
           <element id="library" level="project" name="Gradle: org.jgroups:jgroups:3.6.7.Final" />
           <element id="library" level="project" name="Gradle: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.1.Final" />
           <element id="library" level="project" name="Gradle: org.jboss.marshalling:jboss-marshalling-osgi:1.4.10.Final" />
-          <element id="library" level="project" name="Gradle: com.mchange:c3p0:0.9.5.2" />
-          <element id="library" level="project" name="Gradle: com.mchange:mchange-commons-java:0.2.11" />
           <element id="archive" name="soddy-base-jdbc-1.0-SNAPSHOT.jar">
             <element id="module-output" name="base-jdbc_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/base-jdbc/build/resources/main" />
           </element>
           <element id="library" level="project" name="Gradle: com.alibaba.druid:druid-wrapper:0.2.9" />
+          <element id="library" level="project" name="Gradle: com.mchange:c3p0:0.9.5.2" />
           <element id="library" level="project" name="Gradle: com.alibaba:druid:0.2.9" />
+          <element id="library" level="project" name="Gradle: com.mchange:mchange-commons-java:0.2.11" />
           <element id="archive" name="soddy-shiro-1.0-SNAPSHOT.jar">
             <element id="module-output" name="shiro_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/shiro/build/resources/main" />
@@ -118,8 +118,12 @@
             <element id="module-output" name="base-log_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/base-log/build/resources/main" />
           </element>
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.21/7238b064d1aba20da2ac03217d700d91e02460fa/slf4j-log4j12-1.7.21.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-log4j12:1.7.21" />
+          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+          <element id="archive" name="soddy-base-front-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="base-front_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/base-front/build/resources/main" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">
