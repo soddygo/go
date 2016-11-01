@@ -22,7 +22,7 @@ public class C3p0InitServiceImpl implements JdbcPoolInitService {
     }
 
     @Override
-    public void initJdbcPool() throws IOException {
+    public void initJdbcPool() throws Exception{
 
 //        comboPooledDataSource.setDataSourceName("mydatasource");
         comboPooledDataSource.setJdbcUrl(ProPertiesUtil.getPropertyValue("jdbc.url"));

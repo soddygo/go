@@ -1,5 +1,6 @@
 package com.soddy.config.service;
 
+import java.beans.PropertyVetoException;
 import java.io.IOException;
 
 /**
@@ -13,7 +14,7 @@ public interface JdbcPoolInitService {
     /**
      * 初始化数据库连接池
      */
-    void  initJdbcPool() throws IOException;
+    void  initJdbcPool() throws Exception;
 
     /**
      * 获取dataSource 对象
