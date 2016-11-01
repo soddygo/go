@@ -13,11 +13,7 @@
 		<property name="unauthorizedUrl" value="/tounauth" />
 		<property name="filterChainDefinitions">
 			<value>
-                /login/**=anon
-                /css/**=anon
-                /img/**=anon
-                /js/**=anon
-                /**=authc
+                /**=anon
 			</value>
 		</property>
 	</bean>
@@ -28,7 +24,7 @@
 		<property name="cacheManager" ref="shiroCacheManager"/>
 	</bean>
 	<!-- shiro Realm -->
-	<bean id="shiroRealm" class="com.trs.base.config.ShiroRealm"/>
+	<bean id="shiroRealm" class="com.soddy.base.shiro.config.ShiroRealm"/>
 	<!-- shiro缓存 -->
 	<bean id="shiroCacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
 		<property name="cacheManager" ref="ehCacheManager" />
