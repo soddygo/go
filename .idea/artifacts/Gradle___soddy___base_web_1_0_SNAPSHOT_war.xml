@@ -21,13 +21,13 @@
             <element id="dir-copy" path="$PROJECT_DIR$/base-util/build/resources/main" />
           </element>
           <element id="library" level="project" name="Gradle: net.sourceforge.jexcelapi:jxl:2.6.12" />
+          <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.25-incubating" />
           <element id="library" level="project" name="Gradle: cglib:cglib:3.2.4" />
+          <element id="library" level="project" name="Gradle: org.tinygroup:org.tinygroup.ui.ueditor:2.3.5" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.1" />
           <element id="library" level="project" name="Gradle: org.apache.ant:ant:1.9.6" />
-          <element id="library" level="project" name="Gradle: org.tinygroup:org.tinygroup.ui.ueditor:2.3.5" />
           <element id="library" level="project" name="Gradle: org.tinygroup:org.tinygroup.ui.jquery:2.3.5" />
           <element id="library" level="project" name="Gradle: org.apache.ant:ant-launcher:1.9.6" />
-          <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.25-incubating" />
           <element id="archive" name="soddy-base-spring-1.0-SNAPSHOT.jar">
             <element id="module-output" name="base-spring_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/base-spring/build/resources/main" />
@@ -143,6 +143,7 @@
             <element id="module-output" name="base-front_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/base-front/build/resources/main" />
           </element>
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.6.11/fae7f84a5ffabe1b814e40190650c0ad5aeda5b1/ehcache-core-2.6.11.jar" />
         </element>
       </element>
       <element id="directory" name="META-INF">

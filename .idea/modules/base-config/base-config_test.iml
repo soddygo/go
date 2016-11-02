@@ -49,6 +49,7 @@
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-infinispan:5.2.3.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.ehcache:ehcache:2.10.3" level="project" />
+    <orderEntry type="library" name="Gradle: net.sf.ehcache:ehcache-core:2.6.11" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba.druid:druid-wrapper:0.2.9" level="project" />
     <orderEntry type="library" name="Gradle: com.mchange:c3p0:0.9.5.2" level="project" />
     <orderEntry type="library" name="Gradle: com.oracle:ojdbc6:12.1.0.1-atlassian-hosted" level="project" />
