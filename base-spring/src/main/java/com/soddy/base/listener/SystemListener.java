@@ -8,8 +8,10 @@ import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
+import javax.servlet.FilterRegistration;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletRegistration;
 import javax.servlet.annotation.WebListener;
 import java.io.File;
 import java.io.FileFilter;
@@ -43,7 +45,10 @@ public class SystemListener extends ContextLoaderListener {
     public void contextInitialized(ServletContextEvent event) {
         ServletContext servletContext = event.getServletContext();
         servletContext.setInitParameter("contextConfigLocation", "classpath*:spring/spring-base.xml");//从spring-base.xml文件，去读取其他的配置文件信息
-
+        servletContext.addListener(SessionListener.class);
+        final ServletRegistration.Dynamic dynamic = servletContext.addServlet("dispatcher",org.springframework.web.servlet.DispatcherServlet.class);
+        dynamic.addMapping("/");
+        dynamic.setInitParameter("contextConfigLocation","classpath*:mvc/springMvc.xml");
 
         //启动spring TODO
         final long begin = System.currentTimeMillis();
