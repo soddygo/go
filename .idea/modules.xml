@@ -11,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-esb/base-esb.iml" filepath="$PROJECT_DIR$/.idea/modules/base-esb/base-esb.iml" group="base-esb" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-esb/base-esb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-esb/base-esb_main.iml" group="base-esb" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-esb/base-esb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-esb/base-esb_test.iml" group="base-esb" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-front/base-front.iml" filepath="$PROJECT_DIR$/.idea/modules/base-front/base-front.iml" group="base-front" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-front/base-front_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-front/base-front_main.iml" group="base-front" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-front/base-front_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-front/base-front_test.iml" group="base-front" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop.iml" filepath="$PROJECT_DIR$/.idea/modules/base-hadoop/base-hadoop.iml" group="base-hadoop" />
