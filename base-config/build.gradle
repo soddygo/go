@@ -30,7 +30,7 @@ dependencies {
 }
 
 
-task copyJars(type: Copy) {
-    from configurations.runtime
-    into 'lib' // 目标位置
-}
+//task copyJars(type: Copy) {
+//    from configurations.runtime
+//    into 'lib' // 目标位置
+//}

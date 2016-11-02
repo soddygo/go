@@ -9,8 +9,8 @@
     <import resource="classpath:mvc/springMvc.xml"/>
 
 
-    <import resource="classpath:spring/spring-freemarker.xml"/>
-    <import resource="classpath:spring/spring-quartz.xml"/>
+    <!--<import resource="classpath:spring/spring-freemarker.xml"/>-->
+    <!--<import resource="classpath:spring/spring-quartz.xml"/>-->
     <import resource="classpath:spring/spring-shiro.xml"/>
     <import resource="classpath:spring/spring-thread.xml"/>
 
