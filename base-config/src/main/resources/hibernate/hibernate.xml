@@ -13,14 +13,14 @@
     <bean id="springDataSourceBeanPostProcessor" class="net.bull.javamelody.SpringDataSourceBeanPostProcessor"></bean>
 
     <bean id="ehCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
-        <property name="configLocation" value="classpath:hibernate/ehcache.xml"/>
+        <property name="configLocation" value="classpath*:hibernate/ehcache.xml"/>
         <property name="shared" value="true"/>
     </bean>
 
 
 
     <!-- Hibernate配置  -->
-    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean" >
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean" >
         <property name="dataSource" ref="wrappedDataSource"/>
         <property name="packagesToScan" value="com" />
         <property name="hibernateProperties">
@@ -46,7 +46,7 @@
     </bean>
 
 
-    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate4.HibernateTemplate">
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
         <property name="sessionFactory" ref="sessionFactory"></property>
     </bean>
 
