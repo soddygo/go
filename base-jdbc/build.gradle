@@ -7,6 +7,9 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
+    maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    jcenter()
+    mavenLocal()
     mavenCentral()
 }
 
@@ -17,4 +20,18 @@ dependencies {
     compile group: 'com.alibaba.druid', name: 'druid-wrapper', version: '0.2.9'
     // https://mvnrepository.com/artifact/com.mchange/c3p0
     compile group: 'com.mchange', name: 'c3p0', version: '0.9.5.2'
+
+    // https://mvnrepository.com/artifact/com.oracle/ojdbc6
+    compile group: 'com.oracle', name: 'ojdbc6', version: '12.1.0.1-atlassian-hosted'
+//// https://mvnrepository.com/artifact/oracle/ojdbc6
+//    compile group: 'oracle', name: 'ojdbc6', version: '11.2.0.3'
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.5'
+
+
+    // https://mvnrepository.com/artifact/com.jolbox/bonecp
+    compile group: 'com.jolbox', name: 'bonecp', version: '0.8.0.RELEASE'
+// https://mvnrepository.com/artifact/com.jolbox/bonecp-spring
+    compile group: 'com.jolbox', name: 'bonecp-spring', version: '0.8.0.RELEASE'
+
 }

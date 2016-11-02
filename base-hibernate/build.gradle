@@ -9,8 +9,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-    jcenter()
     maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    jcenter()
     mavenLocal()
     mavenCentral()
 }
@@ -25,9 +25,15 @@ dependencies {
     compile group: 'org.hibernate', name: 'hibernate-c3p0', version: '5.2.3.Final'
 // https://mvnrepository.com/artifact/org.hibernate/hibernate-infinispan
     compile group: 'org.hibernate', name: 'hibernate-infinispan', version: '5.2.3.Final'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-validator
+    compile group: 'org.hibernate', name: 'hibernate-validator', version: '5.3.0.Final'
 
-    // https://mvnrepository.com/artifact/org.hibernate/hibernate-ehcache
-    compile group: 'org.hibernate', name: 'hibernate-ehcache', version: '5.2.3.Final'
+
+// https://mvnrepository.com/artifact/net.sf.ehcache/ehcache
+    compile group: 'net.sf.ehcache', name: 'ehcache', version: '2.10.3'
+// https://mvnrepository.com/artifact/net.sf.ehcache/ehcache-core
+    compile group: 'net.sf.ehcache', name: 'ehcache-core', version: '2.6.11'
+
 
 }
 

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.tinygroup:org.tinygroup.ui.ueditor:2.3.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tinygroup/org.tinygroup.ui.ueditor/2.3.5/4fb952882b24ce7827f37ba8b6106d0bb05303b/org.tinygroup.ui.ueditor-2.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tinygroup/org.tinygroup.ui.ueditor/2.3.5/f116453d288ef4492b68c0fc4b10e5225ebfbdb0/org.tinygroup.ui.ueditor-2.3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

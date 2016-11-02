@@ -9,8 +9,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-    jcenter()
     maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    jcenter()
     mavenLocal()
     mavenCentral()
 }
@@ -30,7 +30,7 @@ dependencies {
 }
 
 
-task copyJars(type: Copy) {
-    from configurations.runtime
-    into 'lib' // 目标位置
-}
+//task copyJars(type: Copy) {
+//    from configurations.runtime
+//    into 'lib' // 目标位置
+//}

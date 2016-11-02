@@ -46,12 +46,12 @@
 
     <!-- shiro注解配置 (必须配置在springmvc配置文件中注解才能生效) -->
     <!-- 后处理Bean 通过代理进行拦截 -->
-    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor" />
-    <!-- 配置切面，使方法能够接收注解的权限控制 -->
-    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" depends-on="lifecycleBeanPostProcessor" >
-        <property name="proxyTargetClass" value="true" />
-    </bean>
-    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
-        <property name="securityManager" ref="securityManager" />
-    </bean>
+    <!--<bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor" />-->
+    <!--&lt;!&ndash; 配置切面，使方法能够接收注解的权限控制 &ndash;&gt;-->
+    <!--<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" depends-on="lifecycleBeanPostProcessor" >-->
+        <!--<property name="proxyTargetClass" value="true" />-->
+    <!--</bean>-->
+    <!--<bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">-->
+        <!--<property name="securityManager" ref="securityManager" />-->
+    <!--</bean>-->
 </beans>

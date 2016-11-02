@@ -11,7 +11,13 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: com.alibaba.druid:druid-wrapper:0.2.9" level="project" />
     <orderEntry type="library" name="Gradle: com.mchange:c3p0:0.9.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.oracle:ojdbc6:12.1.0.1-atlassian-hosted" level="project" />
+    <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:6.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.jolbox:bonecp:0.8.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.jolbox:bonecp-spring:0.8.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:druid:0.2.9" level="project" />
     <orderEntry type="library" name="Gradle: com.mchange:mchange-commons-java:0.2.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:15.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.2" level="project" />
   </component>
 </module>

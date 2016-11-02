@@ -9,12 +9,26 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-    jcenter()
     maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    jcenter()
     mavenLocal()
     mavenCentral()
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    // https://mvnrepository.com/artifact/org.apache.cxf/cxf-core
+    compile group: 'org.apache.cxf', name: 'cxf-core', version: '3.1.8'
+// https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-ws-security
+    compile group: 'org.apache.cxf', name: 'cxf-rt-ws-security', version: '3.1.8'
+// https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-transports-http-jetty
+    compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http-jetty', version: '3.1.8'
+// https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws
+    compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxws', version: '3.1.8'
+// https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-transports-http
+    compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http', version: '3.1.8'
+// https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxrs
+    compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '3.1.8'
+
 }

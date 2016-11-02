@@ -11,8 +11,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-    jcenter()
     maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    jcenter()
     mavenLocal()
     mavenCentral()
 }
@@ -21,6 +21,7 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 
     compile project(path:':base-config') //依赖配置信息
-    compile project(path:':base-front') //依赖静态文件
+    compile project(path:':base-front') //依赖war静态文件
+//    compile project(path:':base-front',ext:'jar') //依赖jar
 
 }

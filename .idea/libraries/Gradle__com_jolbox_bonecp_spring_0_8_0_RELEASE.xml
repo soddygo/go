@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jolbox:bonecp-spring:0.8.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jolbox/bonecp-spring/0.8.0.RELEASE/440706b2503adf50f81233582d575083aa2badd2/bonecp-spring-0.8.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jolbox/bonecp-spring/0.8.0.RELEASE/f4e56cab691fef510159a4c0b9d1b111e08f0ce4/bonecp-spring-0.8.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

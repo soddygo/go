@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cache="http://www.springframework.org/schema/cache"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd">
 
     <bean id="facadeMonitoringAdvisor" class="net.bull.javamelody.MonitoringSpringAdvisor">
         <property name="pointcut">
             <bean class="org.springframework.aop.support.JdkRegexpMethodPointcut">
-                <property name="pattern" value="com.trs"/>
+                <property name="pattern" value="com"/>
             </bean>
         </property>
     </bean>
     <bean id="springDataSourceBeanPostProcessor" class="net.bull.javamelody.SpringDataSourceBeanPostProcessor"></bean>
 
-    <bean id="ehCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
-        <property name="configLocation" value="classpath:hibernate/ehcache.xml"/>
-        <property name="shared" value="true"/>
-    </bean>
+    <!--<bean id="ehCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">-->
+        <!--<property name="configLocation" value="classpath*:hibernate/ehcache.xml"/>-->
+        <!--<property name="shared" value="true"/>-->
+    <!--</bean>-->
 
+    <!--<cache:annotation-driven cache-manager="cacheManager"/>-->
+    <bean id="cacheManagerFactory" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"
+          p:configLocation="classpath:hibernate/ehcache.xml" p:shared="false"/>
+    <!--<bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager"-->
+          <!--p:cacheManager-ref="cacheManagerFactory"/>-->
 
 
     <!-- Hibernate配置  -->
-    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean" >
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="dataSource" ref="wrappedDataSource"/>
-        <property name="packagesToScan" value="com" />
+        <property name="packagesToScan" value="com"/>
         <property name="hibernateProperties">
             <props>
                 <prop key="hibernate.dialect">${hibernate.dialect}</prop>
@@ -32,21 +38,22 @@
                 <prop key="hibernate.default_batch_fetch_size">${hibernate.default_batch_fetch_size}</prop>
                 <prop key="hibernate.max_fetch_depth">${hibernate.max_fetch_depth}</prop>
                 <prop key="hibernate.generate_statistics">${hibernate.generate_statistics}</prop>
-                <prop key="hibernate.bytecode.use_reflection_optimizer">${hibernate.bytecode.use_reflection_optimizer}</prop>
+                <prop key="hibernate.bytecode.use_reflection_optimizer">${hibernate.bytecode.use_reflection_optimizer}
+                </prop>
                 <prop key="hibernate.cache.use_second_level_cache">${hibernate.cache.use_second_level_cache}</prop>
                 <prop key="hibernate.cache.use_query_cache">${hibernate.cache.use_query_cache}</prop>
                 <prop key="hibernate.cache.provider_class">${hibernate.cache.provider_class}</prop>
                 <prop key="hibernate.cache.region.factory_class">${hibernate.cache.region.factory_class}</prop>
-                <prop key="net.sf.ehcache.configurationResourceName">${net.sf.ehcache.configurationResourceName}</prop>
+                <!--<prop key="net.sf.ehcache.configurationResourceName">${net.sf.ehcache.configurationResourceName}</prop>-->
                 <prop key="hibernate.cache.use_structured_entries">${hibernate.cache.use_structured_entries}</prop>
-                <prop key="current_session_context_class">org.springframework.orm.hibernate4.SpringSessionContext</prop>
-                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="current_session_context_class">${current_session_context_class}</prop>
+                <prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
             </props>
         </property>
     </bean>
 
 
-    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate4.HibernateTemplate">
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
         <property name="sessionFactory" ref="sessionFactory"></property>
     </bean>
 

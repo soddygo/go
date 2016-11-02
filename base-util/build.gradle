@@ -9,12 +9,27 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-    jcenter()
     maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    jcenter()
     mavenLocal()
     mavenCentral()
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    // https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl
+    compile group: 'net.sourceforge.jexcelapi', name: 'jxl', version: '2.6.12'
+// https://mvnrepository.com/artifact/org.freemarker/freemarker
+    compile group: 'org.freemarker', name: 'freemarker', version: '2.3.25-incubating'
+
+    // https://mvnrepository.com/artifact/cglib/cglib
+    compile group: 'cglib', name: 'cglib', version: '3.2.4'
+//// https://mvnrepository.com/artifact/dom4j/dom4j
+//    compile group: 'dom4j', name: 'dom4j', version: '1.6.1.redhat-7'
+
+
+    // https://mvnrepository.com/artifact/org.tinygroup/org.tinygroup.ui.ueditor
+    compile group: 'org.tinygroup', name: 'org.tinygroup.ui.ueditor', version: '2.3.5'
+
 }

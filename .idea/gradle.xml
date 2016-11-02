@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/base-front" />
             <option value="$PROJECT_DIR$/base-hadoop" />
             <option value="$PROJECT_DIR$/base-hibernate" />
+            <option value="$PROJECT_DIR$/base-jdbc" />
             <option value="$PROJECT_DIR$/base-log" />
             <option value="$PROJECT_DIR$/base-manager" />
             <option value="$PROJECT_DIR$/base-redis" />
@@ -25,6 +26,7 @@
             <option value="$PROJECT_DIR$/base-util" />
             <option value="$PROJECT_DIR$/base-web" />
             <option value="$PROJECT_DIR$/base-xml" />
+            <option value="$PROJECT_DIR$/shiro" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
