@@ -23,8 +23,8 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.oracle/ojdbc6
     compile group: 'com.oracle', name: 'ojdbc6', version: '12.1.0.1-atlassian-hosted'
-// https://mvnrepository.com/artifact/oracle/ojdbc6
-    compile group: 'oracle', name: 'ojdbc6', version: '11.2.0.3'
+//// https://mvnrepository.com/artifact/oracle/ojdbc6
+//    compile group: 'oracle', name: 'ojdbc6', version: '11.2.0.3'
 // https://mvnrepository.com/artifact/mysql/mysql-connector-java
     compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.5'
 
