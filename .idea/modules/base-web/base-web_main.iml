@@ -22,7 +22,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="base-config_main" />
-    <orderEntry type="module" module-name="base-front_main" />
     <orderEntry type="module" module-name="base-util_main" />
     <orderEntry type="module" module-name="base-spring_main" />
     <orderEntry type="module" module-name="base-hibernate_main" />
