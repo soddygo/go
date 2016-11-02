@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.tinygroup:org.tinygroup.ui.jquery:2.3.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tinygroup/org.tinygroup.ui.jquery/2.3.5/28b16102a8226ff7fc40acdcdd866392a47a8806/org.tinygroup.ui.jquery-2.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tinygroup/org.tinygroup.ui.jquery/2.3.5/bacb711fd3a77bbde14694ccc77635b61378ef0a/org.tinygroup.ui.jquery-2.3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
