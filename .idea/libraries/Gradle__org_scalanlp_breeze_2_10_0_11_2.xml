@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.scalanlp:breeze_2.10:0.11.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalanlp/breeze_2.10/0.11.2/db1dd22c8b35f26cb056c1584617730e70f50a9e/breeze_2.10-0.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalanlp/breeze_2.10/0.11.2/40bbc77ac5cfc90b0200b96596ee8b65258923e3/breeze_2.10-0.11.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

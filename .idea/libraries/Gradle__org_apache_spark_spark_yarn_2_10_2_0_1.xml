@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.spark:spark-yarn_2.10:2.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-yarn_2.10/2.0.1/7e9724c7ae437877ffa1880827cd88cc5a9d9577/spark-yarn_2.10-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-yarn_2.10/2.0.1/8b74e22f52d7dd7208b07040b985b286379c8341/spark-yarn_2.10-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
