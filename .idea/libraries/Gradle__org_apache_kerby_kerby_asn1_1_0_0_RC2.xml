@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.kerby:kerby-asn1:1.0.0-RC2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-asn1/1.0.0-RC2/f9c72709d34b5aa7ffc21b29887a48a16aef9a08/kerby-asn1-1.0.0-RC2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-asn1/1.0.0-RC2/cddf61259dd8675f0a8ed18bb2249183f9648ba8/kerby-asn1-1.0.0-RC2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

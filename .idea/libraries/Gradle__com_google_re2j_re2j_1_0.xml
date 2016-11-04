@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.re2j:re2j:1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.re2j/re2j/1.0/d24ac5f945b832d93a55343cd1645b1ba3eca7c3/re2j-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.re2j/re2j/1.0/960a035f10622b2eb59800e5b1bde92d3ebb9b84/re2j-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
