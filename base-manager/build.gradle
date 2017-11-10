@@ -18,5 +18,12 @@ repositories {
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.11'
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile project(path:':base-util') //依赖工具类
+    compile project(path:':base-spring') //依赖spring
+    compile project(path:':base-hibernate') //依赖hibernate
+    compile project(path:':base-jdbc') //依赖jdbc dataSource的定义
+    compile project(path:':shiro') //依赖shiro
+    compile project(path:':base-log') //依赖日志模块
+
 }

@@ -14,6 +14,7 @@
     <content url="file://$MODULE_DIR$/../../../base-web">
       <excludeFolder url="file://$MODULE_DIR$/../../../base-web/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../base-web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../base-web/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

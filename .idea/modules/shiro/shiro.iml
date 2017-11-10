@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../shiro">
       <excludeFolder url="file://$MODULE_DIR$/../../../shiro/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../shiro/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../shiro/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

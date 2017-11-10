@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../base-cxf">
       <excludeFolder url="file://$MODULE_DIR$/../../../base-cxf/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../base-cxf/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../base-cxf/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

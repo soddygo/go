@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../base-redis">
       <excludeFolder url="file://$MODULE_DIR$/../../../base-redis/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../base-redis/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../base-redis/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

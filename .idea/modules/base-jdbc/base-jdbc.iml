@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../base-jdbc">
       <excludeFolder url="file://$MODULE_DIR$/../../../base-jdbc/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../base-jdbc/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../base-jdbc/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

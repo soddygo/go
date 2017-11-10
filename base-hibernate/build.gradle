@@ -16,23 +16,24 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+
     // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
-    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.3.Final'
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.12.Final'
 // https://mvnrepository.com/artifact/org.hibernate/hibernate-ehcache
-    compile group: 'org.hibernate', name: 'hibernate-ehcache', version: '5.2.3.Final'
+    compile group: 'org.hibernate', name: 'hibernate-ehcache', version: '5.2.12.Final'
 // https://mvnrepository.com/artifact/org.hibernate/hibernate-c3p0
-    compile group: 'org.hibernate', name: 'hibernate-c3p0', version: '5.2.3.Final'
+    compile group: 'org.hibernate', name: 'hibernate-c3p0', version: '5.2.12.Final'
 // https://mvnrepository.com/artifact/org.hibernate/hibernate-infinispan
-    compile group: 'org.hibernate', name: 'hibernate-infinispan', version: '5.2.3.Final'
-    // https://mvnrepository.com/artifact/org.hibernate/hibernate-validator
-    compile group: 'org.hibernate', name: 'hibernate-validator', version: '5.3.0.Final'
+    compile group: 'org.hibernate', name: 'hibernate-infinispan', version: '5.2.12.Final'
+    // https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator
+    compile group: 'org.hibernate.validator', name: 'hibernate-validator', version: '6.0.4.Final'
 
 
-// https://mvnrepository.com/artifact/net.sf.ehcache/ehcache
-    compile group: 'net.sf.ehcache', name: 'ehcache', version: '2.10.3'
-// https://mvnrepository.com/artifact/net.sf.ehcache/ehcache-core
-    compile group: 'net.sf.ehcache', name: 'ehcache-core', version: '2.6.11'
+
+
+// https://mvnrepository.com/artifact/org.ehcache/ehcache
+    compile group: 'org.ehcache', name: 'ehcache', version: '3.4.0'
+
 
 
 }

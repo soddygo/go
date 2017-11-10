@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-config/base-config.iml" filepath="$PROJECT_DIR$/.idea/modules/base-config/base-config.iml" group="base-config" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-config/base-config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-config/base-config_main.iml" group="base-config" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-config/base-config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-config/base-config_test.iml" group="base-config" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-cxf/base-cxf.iml" filepath="$PROJECT_DIR$/.idea/modules/base-cxf/base-cxf.iml" group="base-cxf" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-cxf/base-cxf_main.iml" filepath="$PROJECT_DIR$/.idea/modules/base-cxf/base-cxf_main.iml" group="base-cxf" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-cxf/base-cxf_test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-cxf/base-cxf_test.iml" group="base-cxf" />

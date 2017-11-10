@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../base-esb">
       <excludeFolder url="file://$MODULE_DIR$/../../../base-esb/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../base-esb/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../base-esb/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

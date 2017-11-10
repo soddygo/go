@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.hadoop:hadoop-yarn-server-timelineservice:3.0.0-alpha1">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-yarn-server-timelineservice/3.0.0-alpha1/a49e19a7c004ab8e1f7901ca373c1f4238f07d/hadoop-yarn-server-timelineservice-3.0.0-alpha1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":base-jdbc:main" external.linked.project.path="$MODULE_DIR$/../../../base-jdbc" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="soddy" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/../../../base-jdbc/build/classes/main" />
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../base-jdbc/out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../base-jdbc/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../base-jdbc/src/main/java" isTestSource="false" />
@@ -13,8 +13,8 @@
     <orderEntry type="library" name="Gradle: com.mchange:c3p0:0.9.5.2" level="project" />
     <orderEntry type="library" name="Gradle: com.oracle:ojdbc6:12.1.0.1-atlassian-hosted" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:6.0.5" level="project" />
-    <orderEntry type="library" name="Gradle: com.jolbox:bonecp:0.8.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.jolbox:bonecp-spring:0.8.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.jolbox:bonecp:0.8.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:druid:0.2.9" level="project" />
     <orderEntry type="library" name="Gradle: com.mchange:mchange-commons-java:0.2.11" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:15.0" level="project" />

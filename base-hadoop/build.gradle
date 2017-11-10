@@ -10,65 +10,18 @@ targetCompatibility = 1.8
 
 
 repositories {
-    maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
     jcenter()
     mavenLocal()
     mavenCentral()
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common
+    compile group: 'org.apache.hadoop', name: 'hadoop-common', version: '2.8.2'
 
-    // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-core
-    compile group: 'org.apache.hadoop', name: 'hadoop-core', version: '2.6.0-mr1-cdh5.8.2'
-    // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-test
-    compile group: 'org.apache.hadoop', name: 'hadoop-test', version: '2.6.0-mr1-cdh5.8.2'
-    // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-tools
-    compile group: 'org.apache.hadoop', name: 'hadoop-tools', version: '2.6.0-mr1-cdh5.8.2'
-
-
-
-    // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common
-    compile group: 'org.apache.hadoop', name: 'hadoop-common', version: '3.0.0-alpha1'
 // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-client
-    compile group: 'org.apache.hadoop', name: 'hadoop-client', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-hdfs
-    compile group: 'org.apache.hadoop', name: 'hadoop-hdfs', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core
-    compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-core', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-annotations
-    compile group: 'org.apache.hadoop', name: 'hadoop-annotations', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-minicluster
-    compile group: 'org.apache.hadoop', name: 'hadoop-minicluster', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-auth
-    compile group: 'org.apache.hadoop', name: 'hadoop-auth', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-common
-    compile group: 'org.apache.hadoop', name: 'hadoop-yarn-common', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-api
-    compile group: 'org.apache.hadoop', name: 'hadoop-yarn-api', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-jobclient
-    compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-jobclient', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-client
-    compile group: 'org.apache.hadoop', name: 'hadoop-yarn-client', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-common
-    compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-common', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-server-tests
-    compile group: 'org.apache.hadoop', name: 'hadoop-yarn-server-tests', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-app
-    compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-app', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-shuffle
-    compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-shuffle', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-server-nodemanager
-    compile group: 'org.apache.hadoop', name: 'hadoop-yarn-server-nodemanager', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-server-web-proxy
-    compile group: 'org.apache.hadoop', name: 'hadoop-yarn-server-web-proxy', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-server-resourcemanager
-    compile group: 'org.apache.hadoop', name: 'hadoop-yarn-server-resourcemanager', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-streaming
-    compile group: 'org.apache.hadoop', name: 'hadoop-streaming', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-minikdc
-    compile group: 'org.apache.hadoop', name: 'hadoop-minikdc', version: '3.0.0-alpha1'
-// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-hs
-    compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-hs', version: '3.0.0-alpha1'
+    compile group: 'org.apache.hadoop', name: 'hadoop-client', version: '2.8.2'
+
 
 }

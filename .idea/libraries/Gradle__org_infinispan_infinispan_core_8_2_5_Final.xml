@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.infinispan:infinispan-core:8.2.5.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.infinispan/infinispan-core/8.2.5.Final/a2b8a2ab1cac075736a7f6253d476d86b7826941/infinispan-core-8.2.5.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.infinispan/infinispan-core/8.2.5.Final/e518f97e574c06c1829609138d57aae84c681f8b/infinispan-core-8.2.5.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

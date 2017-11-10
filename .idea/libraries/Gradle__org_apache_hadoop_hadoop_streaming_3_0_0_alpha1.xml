@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.hadoop:hadoop-streaming:3.0.0-alpha1">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-streaming/3.0.0-alpha1/1337ef01d758a0ce37cf84641e9bd6637548f3b9/hadoop-streaming-3.0.0-alpha1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

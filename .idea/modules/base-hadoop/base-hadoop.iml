@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../base-hadoop">
       <excludeFolder url="file://$MODULE_DIR$/../../../base-hadoop/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../base-hadoop/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../base-hadoop/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
